@@ -1,9 +1,9 @@
 TITLE
 150 MeV proton pencil beam in water, field on
-DEFAULTS                                                                PRECISIO
-BEAM          -0.150                                                      PROTON
+DEFAULTS                                                              PRECISIO
+BEAM          -0.150                                                  PROTON
 BEAMPOS            0         0     0.001
-GEOBEGIN                                                                COMBNAME
+GEOBEGIN                                                              COMBNAME
     0    0
 RPP world -50 50 -50 50 -10 60
 RPP tank -10 10 -5 5 0 30
@@ -17,8 +17,8 @@ ASSIGNMA    BLCKHOLE   OUTSIDE
 ASSIGNMA      VACUUM   VACUUMR
 ASSIGNMA       WATER   PHANTOM                             1
 MGNFIELD                                         0       1.5         0
-USRBIN            10      DOSE       -21         5         2        20      dose
-USRBIN            -5        -2         0       100        40       200         &
+USRBIN            10      DOSE       -21         5         2        20dose
+USRBIN            -5        -2         0       100        40       200&
 RANDOMIZ           1     12345
 START          10000
 STOP
